@@ -88,7 +88,7 @@ function MapHomePage() {
                   subheader={
                     <div>
                       <b>Site ID:</b>
-                      <a href={`/demo-westdaat-ss/landingpage/${properties.SiteUUID}`} target="_blank" rel="noopener noreferrer">
+                      <a href={`#/landingpage/${properties.SiteUUID}`} target="_blank" rel="noopener noreferrer">
                         {properties.SiteUUID} <Icon path={mdiOpenInNew} className="map-popup-card-time-site-link-icon" />
                       </a>
                     </div>
@@ -133,7 +133,7 @@ function MapHomePage() {
                   subheader={
                     <div>
                       <b>Site ID:</b>
-                      <a href={`/demo-westdaat-ss/landingpage/${properties.SiteUUID}`} target="_blank" rel="noopener noreferrer">
+                      <a href={`#/landingpage/${properties.SiteUUID}`} target="_blank" rel="noopener noreferrer">
                         {properties.SiteUUID}
                       </a>
                     </div>
