@@ -1,0 +1,9 @@
+.time-series-theme {
+    position: absolute;
+    transform: rotate(90deg) translateX(140px) translateY(110px);
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    z-index: 10;
+  }
+  
