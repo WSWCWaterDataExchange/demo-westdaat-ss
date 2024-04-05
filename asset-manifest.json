@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WSWCWaterDataExchange/demo-westdaat-ss/static/css/main.6b0580e4.css",
+    "main.js": "/WSWCWaterDataExchange/demo-westdaat-ss/static/js/main.0c7f2c9c.js",
+    "index.html": "/WSWCWaterDataExchange/demo-westdaat-ss/index.html",
+    "main.6b0580e4.css.map": "/WSWCWaterDataExchange/demo-westdaat-ss/static/css/main.6b0580e4.css.map",
+    "main.0c7f2c9c.js.map": "/WSWCWaterDataExchange/demo-westdaat-ss/static/js/main.0c7f2c9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b0580e4.css",
+    "static/js/main.0c7f2c9c.js"
+  ]
+}
