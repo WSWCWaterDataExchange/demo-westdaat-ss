@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/landingpage/:siteUUID" element={<LandingPage />} />
+        <Route path="demo-westdaat-ss/" element={<HomePage />} />
+        <Route path="demo-westdaat-ss/landingpage/:siteUUID" element={<LandingPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
