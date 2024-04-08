@@ -2,6 +2,7 @@ import "../LandingPage/LandingPageProperties.scss";
 import { useEffect } from "react";
 import { APIData } from "./APIData";
 
+
 interface APISearchProps {
   onApiDataFetched: (data: APIData[] | null) => void;
   siteUUID: string | undefined;
@@ -16,7 +17,7 @@ export default function APISearch({ onApiDataFetched, siteUUID }: APISearchProps
     if (siteUUID) {
       try {
         console.log("siteUUID is: ", siteUUID);
-        const response = await fetch(`/v1/SiteVariableAmounts?SiteUUID=${siteUUID}&key=38f422d1ada34907a91aff4532fa4669`);
+        const response = await fetch(`/v1/SiteVariableAmounts?SiteUUID=${siteUUID}&key=${process.env.REACT_APP_WADE_API_KEY}`);
         console.log("string is: ", response);
         if (!response.ok) {
           console.log("response not okay...");
