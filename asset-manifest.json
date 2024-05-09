@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/demo-westdaat-ss/static/css/main.6b0580e4.css",
-    "main.js": "/demo-westdaat-ss/static/js/main.30d7edf2.js",
+    "main.js": "/demo-westdaat-ss/static/js/main.f389c68c.js",
     "index.html": "/demo-westdaat-ss/index.html",
     "main.6b0580e4.css.map": "/demo-westdaat-ss/static/css/main.6b0580e4.css.map",
-    "main.30d7edf2.js.map": "/demo-westdaat-ss/static/js/main.30d7edf2.js.map"
+    "main.f389c68c.js.map": "/demo-westdaat-ss/static/js/main.f389c68c.js.map"
   },
   "entrypoints": [
     "static/css/main.6b0580e4.css",
-    "static/js/main.30d7edf2.js"
+    "static/js/main.f389c68c.js"
   ]
 }
