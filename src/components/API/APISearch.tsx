@@ -17,7 +17,7 @@ export default function APISearch({ onApiDataFetched, siteUUID }: APISearchProps
     if (siteUUID) {
       try {
         console.log("siteUUID is: ", siteUUID);
-        const response = await fetch(`/v1/SiteVariableAmounts?SiteUUID=${siteUUID}&key=${process.env.REACT_APP_WADE_API_KEY}`);
+        const response = await fetch(`https://wade-api.azure-api.net/v1/SiteVariableAmounts?SiteUUID=${siteUUID}&key=${process.env.REACT_APP_WADE_API_KEY}`);
         console.log("string is: ", response);
         if (!response.ok) {
           console.log("response not okay...");
