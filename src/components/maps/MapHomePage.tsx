@@ -19,7 +19,6 @@ interface OptionType {
   value: string;
 }
 
-
 const siteNameArray: OptionType[] = [
   { label: "Canal / Ditch / Diversion", value: "Canal / Ditch / Diversion" },
   { label: "Reservoir/Dam", value: "Reservoir/Dam" },

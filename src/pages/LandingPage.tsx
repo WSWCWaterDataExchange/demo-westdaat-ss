@@ -16,7 +16,7 @@ export default function LandingPage() {
     <div className="time-series-page">
       <h3>SiteUUID: {siteUUID}</h3>
       <APISearch onApiDataFetched={handleApiDataFetched} siteUUID={siteUUID} />
-      <LandingPageProperties apiData={apiData} />
+      {/* <LandingPageProperties apiData={apiData} /> */}
     </div>
   );
 }
